@@ -91,11 +91,18 @@ Pair * searchMap(HashMap * map,  char * key) {
 }
 
 Pair * firstMap(HashMap * map) {
-
-    return NULL;
+    if(map->size == 0) return NULL;
+    map->current = 0;
+    while(map->buckets[map->current] == NULL && map->buckets[map->current]->key == NULL) {
+        map->current++;
+    }
+    return map->buckets[map->current];
 }
 
 Pair * nextMap(HashMap * map) {
-
-    return NULL;
+    if(map->size == 0) return NULL;
+    while(map->buckets[map->current] == NULL && map->buckets[map->current]->key == NULL) {
+        map->current++;
+    }
+    return map->buckets[map->current];
 }
