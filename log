@@ -27,3 +27,9 @@ c:\mingw\include\stdlib.h:484:40: note: expected 'size_t {aka unsigned int}' but
 cc1.exe: all warnings being treated as errors
 Compilation failed
 66a312f
+ju.,  7 de abr. de 2022 22:54:39: 
+ hashmap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  1|5
+total_score: 10/70
+be6c706
