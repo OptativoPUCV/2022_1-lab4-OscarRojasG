@@ -38,3 +38,8 @@ ju.,  7 de abr. de 2022 23:04:57:
  1 file changed, 9 insertions(+), 2 deletions(-)
  tests:  0|0
 bcb8034
+ju.,  7 de abr. de 2022 23:05:46: 
+ hashmap.c | 1 +
+ 1 file changed, 1 insertion(+)
+ tests:  0|0
+cf12e1e
