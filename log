@@ -12,3 +12,18 @@ c:\mingw\include\stdlib.h:484:40: note: declared here
                                         ^~~~~~
 Compilation failed
 749139a
+ju.,  7 de abr. de 2022 22:54:17: 
+ hashmap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:4:0:
+hashmap.c: In function 'createMap':
+hashmap.c:56:37: error: passing argument 1 of 'calloc' makes integer from pointer without a cast [-Werror=int-conversion]
+     map->buckets = (Pair **) calloc(map->buckets, capacity * sizeof(Pair *));
+                                     ^~~
+In file included from test.c:2:0:
+c:\mingw\include\stdlib.h:484:40: note: expected 'size_t {aka unsigned int}' but argument is of type 'Pair ** {aka struct Pair **}'
+ _CRTIMP __cdecl __MINGW_NOTHROW  void *calloc (size_t, size_t) __MINGW_ATTRIB_MALLOC;
+                                        ^~~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+66a312f
