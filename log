@@ -83,3 +83,9 @@ Fri Apr  8 15:28:48 UTC 2022:
  1 file changed, 1 insertion(+)
  tests:  0|0
 f9cbd4d
+Fri Apr  8 15:32:43 UTC 2022: 
+ hashmap.c | 9 +++------
+ 1 file changed, 3 insertions(+), 6 deletions(-)
+ tests:  16|1
+total_score: 60/70
+85aead0
