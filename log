@@ -55,3 +55,8 @@ ju.,  7 de abr. de 2022 23:11:51:
  tests:  8|3
 total_score: 40/70
 d60270c
+Fri Apr  8 15:13:53 UTC 2022: 
+ hashmap.c | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+ tests:  0|0
+a6ef2a5
