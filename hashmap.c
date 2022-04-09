@@ -107,8 +107,10 @@ Pair * firstMap(HashMap * map) {
 }
 
 Pair * nextMap(HashMap * map) {
-    if(map->size == 0) return NULL;
+    if(map->size <= 1) return NULL;
+  
     map->current++;
+    if(map->current == map->capacity) return NULL;
     while(map->buckets[map->current] == NULL || map->buckets[map->current]->key == NULL) {
         map->current++;
         if(map->current == map->capacity) return NULL;
